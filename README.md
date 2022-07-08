@@ -1,29 +1,9 @@
+# www.langnang
 
-# php
+使用 [typecho/typecho 1.1(17.10.30)](https://github.com/typecho/typecho/releases/tag/v1.1-17.10.30-release) + [gogobody/WebStack v1.09](https://github.com/gogobody/WebStack/releases/tag/1.09) 的导航门户
 
-- `Dependency` [Composer](https://packagist.org/)
-
-
-## Branches
-
-```sh
-┌───────────────────────┐       ┌──────────────────────┐       ┌───────────┐       ┌──────────┐
-|                       |       |                      |       |           |       |          |
-|  @langnang-temp/root  | ====> |  @langnang-temp/php  | ====> |  develop  | ====> |  master  |
-|   Sync from template  |       |    Sync to remote    |       |           |       |          |
-└───────────────────────┘       └──────────────────────┘       └───────────┘       └──────────┘
-
-```
-
-### Sync to remote
-
-```sh
-# add remote url
-git remote set-url --add origin [url]
-# checkout the branch for sync
-git checkout [branch]
-
-git pull
-# force push
-git push -f
-```
+- [x] 移除侧边栏目录延迟显示效果
+- [x] 增加二级目录图标
+- [x] 拓展图标库 [font-awesome](http://www.fontawesome.com.cn/faicons/) [fontawesome](https://fontawesome.com/search?m=free)
+- [ ] 友链
+- [x] 用户登陆后可编辑指定条目内容
